@@ -6,6 +6,9 @@ $forms = $contactFormManager->get_forms();
 ob_start();
 ?>
 <h1>Admin Contact</h1>
+<?php
+var_dump($forms[0]);
+?>
 
 <?php
 foreach ($forms as $cform) { ?>
